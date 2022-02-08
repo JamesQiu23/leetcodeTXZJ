@@ -1,5 +1,7 @@
 package leetcode.hot100;
 
+import leetcode.datastructure.ListNode;
+
 import java.util.HashSet;
 import java.util.Set;
 
@@ -63,14 +65,6 @@ public class Q141_环形链表 {
         }
     }
 
-    public static class ListNode {
-        int val;
-        ListNode next;
-        ListNode(int x) {
-            val = x;
-            next = null;
-        }
-    }
 
 }
 

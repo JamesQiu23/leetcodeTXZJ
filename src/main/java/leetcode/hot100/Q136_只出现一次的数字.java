@@ -44,8 +44,9 @@ public class Q136_只出现一次的数字 {
      * 任何数和其自身做异或运算，结果是 0，即 a⊕a=0
      * 异或运算满足交换律和结合律，即 a⊕b⊕a=b⊕a⊕a=b⊕(a⊕a)=b⊕0=b
      *
-     * @param nums
-     * @return
+     * 时间复杂度 O(n) 因为需要遍历全部数组元素
+     * 空间复杂度 O(1) 不涉及到内存空间
+     *
      */
     public int singleNumber1(int[] nums) {
         int res = 0;
